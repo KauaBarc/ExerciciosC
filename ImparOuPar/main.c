@@ -5,37 +5,33 @@
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
-    int aux, x, resp;
-    printf("Digite o valor, para saber se È ÕMPAR ou PAR...:");
-    scanf("%i", &x);
+    int x, resp;
+    printf("Digite um valor INTEIRO!!, para saber se √© √çMPAR ou PAR...:");
+    scanf("%d", &x);
 
-    aux = x%2;
-
-    if(aux == 0){
-        printf("\nO n˙mero %i È PAR", x);
+    if(x%2 == 0){
+        printf("\nO n√∫mero %d √© PAR", x);
     }else{
-        printf("\nO n˙mero %i È ÕMPAR", x);
+        printf("\nO n√∫mero %d √© √çMPAR", x);
     }
 
-    printf("\n\nDeseja saber se outro n˙mero È ÕMPAR ou PAR? 1-SIM ou 2-N√O...:");
+    printf("\n\nDeseja saber se outro n√∫mero √© √çMPAR ou PAR? 1-SIM ou 2-N√ÉO...:");
     scanf("%i",&resp);
     system ("cls");
 
 
     while(resp==1){
 
-        printf("Digite o valor, para saber se È ÕMPAR ou PAR...:");
-    scanf("%i", &x);
+        printf("Digite o valor, para saber se √© √çMPAR ou PAR...:");
+    scanf("%d", &x);
 
-    aux = x%2;
-
-    if(aux == 0){
-        printf("\nO n˙mero %i È PAR", x);
+    if(x%2 == 0){
+        printf("\nO n√∫mero %d √© PAR", x);
     }else{
-        printf("\nO n˙mero %i È ÕMPAR", x);
+        printf("\nO n√∫mero %d √© √çMPAR", x);
     }
 
-    printf("\n\nDeseja saber se outro n˙mero È ÕMPAR ou PAR? 1-SIM ou 2-N√O...:");
+    printf("\n\nDeseja saber se outro n√∫mero √© √çMPAR ou PAR? 1-SIM ou 2-N√ÉO...:");
     scanf("%i",&resp);
     system ("cls");
 
