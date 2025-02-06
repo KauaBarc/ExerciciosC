@@ -1,3 +1,2 @@
 # ExerciciosC
-
-Repositório feito para salvar exercícios de programação em C.
+# Repositório feito para salvar exercícios de programação em C
